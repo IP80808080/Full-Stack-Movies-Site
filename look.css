@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: Verdana;
+    
+}
+
+h3 {
+    color: azure;
+}
+
+
+.topnav {
+    background-color: rgb(26, 26, 26);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.topnav .search-container {
+    float: right;
+    padding-right: 30px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+form {
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.734);
+}
+
+
+
+input {
+    
+    font: 10px system-ui;
+    color: rgb(0, 0, 0);
+    height:90%;
+    width: 90%;
+    padding: 1px 13px 1px;
+
+}
+
+.thumbnail {
+    height: 290px;
+    width: 200px;
+    border-radius: 30px;
+
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.column {
+    float: left;
+    width: 16%;
+    padding: 10px 10px;
+}
+
+.card {
+    height: 395px;
+    width: 230px;
+    border-radius: 30px;
+    padding: 10px 3px 3px 3px;
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+}
+
+
+
+.active {
+    background: linear-gradient(to right, #4776e6, #e954e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+/* .wrapper {
+    animation: roll 15s linear 0.5s infinite;
+    display: grid;
+    place-items: center;
+    
+}
+.ball {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #5ed3f3;
+    
+    
+}
+
+.ellipse {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0.1vw solid #5ed3f3;
+    
+}
+
+.ellipse1 {
+    transform: rotate(30deg);
+    
+}
+.ellipse2 {
+    transform: rotate(-30deg);
+    
+}
+.ellipse3 {
+    transform: rotate(90deg);
+    
+}
+
+@keyframes roll {
+    from {
+        transform: rotate(0deg);
+    }
+   to {
+        transform: rotate(360deg);
+    }
+} */
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  body {
+    background: linear-gradient(to right, #4776e6, #e954e2);
+    background-size: 200% auto;
+    animation: gradient-animation 4s linear infinite;
+  }
+
+  
